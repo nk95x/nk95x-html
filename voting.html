@@ -1,45 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Sample</title>
-</head>
-<body>
-    <header>
-        <h1>HTML Form</h1>
-        <nav>
-            <a href="index.html">Index</a>
-        </nav>
-    </header>
-    <main>
-    <form method="POST" action="https://formspree.io/f/mgerwzgg">
-        <label>Name:
-        <input type="text" placeholder="Name" name="name" required>
-        </label>
-        <br>
-        <label>Email:
-        <input type="text" placeholder="Email" name="email" required>
-        </label>
-        <br>
-        <label>Gender:</label>
-        <label>
-        <input type="radio" name="Gender" value="Male">Male
-        </label>
-        <label>
-        <input type="radio" name="Gender" value="Female">Female
-        </label>
-        <label>
-        <input type="radio" name="Gender" value="Other">Other
-        </label>
-        <br>
-        <label>Comments:
-            <textarea name="comments"></textarea>
-        </label>
-        <br>
-        <input type="submit">
-        
-    </form>
-    </main>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Best Album</title>
+    </head>
+    <body>
+        <header>
+            <h1>Choose the best Metallica album</h1>
+            <nav>
+                <a href="index.html">Home page</a>
+                <br>
+                <br>
+            </nav>
+        </header>
+        <main>
+            <form method="POST" action="https://formspree.io/f/mgerwzgg">
+                <label>
+                    <b>Name:</b>
+                    <input type="text" placeholder="Name" name="name" required>
+                </label>
+                <br>
+                <label>
+                    <b>Email:</b>
+                    <input type="text" placeholder="Email" name="email" required>
+                </label>
+                <br>
+                <label>
+                    <b>Album:</b>
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1983-Kill Em All">1983-Kill Em All<img src="img/kill em all.jpg" alt="kill em all album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1984-Ride The Lightning">1984-Ride The Lightning<img src="img/ride the lighthing.jpg" alt="ride the lighthing album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1986-Master Of Puppets">1986-Master Of Puppets<img src="img/master of puppets.jpg" alt="master of puppets album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1988-And Justice For All">1988-And Justice For All<img src="img/and justice for all.jpg" alt="and justice for all album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1991-Metallica">1991-Metallica<img src="img/metallica.jpg" alt="metallica album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1996-Load">1996-Load<img src="img/load.jpg" alt="load album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1997-Reload">1997-Reload<img src="img/reload.jpg" alt="reload album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1998-Garage Inc">1998-Garage Inc<img src="img/garage inc.jpg" alt="garage inc album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="1999-S & M">1999-S &M<img src="img/s and m.jpg" alt="s and m album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="2003-St. Anger">2003-St. Anger<img src="img/st. anger.jpg" alt="st. anger album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="2008-Death Magnetic">2008-Death Magnetic<img src="img/death magnetic.jpg" alt="death magnetic album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="2011-Beyond Magnetic">2011-Beyond Magnetic<img src="img/beyond magnetic.jpg" alt="beyond magnetic album" width="50">
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Album" value="2011-Beyond Magnetic">2016-Hardwired...To Self-Destruct<img src="img/hardwired to self destruct.jpg" alt="hardwired to self destruct album" width="50">
+                </label>
+                <br>
+                <br>
+                <label>
+                    <b>Your favourite group members:</b>
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="James Hetfield">James Hetfield<img src="img/hetfield.jpg" alt="James Hetfield photo" width="100">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="Lars Ulrich">Lars Ulrich<img src="img/ulrich.jpg" alt="Lars Ulrich photo" width="100">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="Kirk Hammett">Kirk Hammett<img src="img/hammett.jpg" alt="Kirk Hammett photo" width="100">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="Robert Trujilo">Robert Trujilo<img src="img/trujilo.jpg" alt="Robert Trujilo photo" width="100">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="Dave Mustaine">Dave Mustaine<img src="img/mustaine.jpg" alt="Dave Mustaine photo" width="100">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="Jason Newsted">Jason Newsted<img src="img/newsted.jpg" alt="Jason Newsted photo" width="100">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="Cliff Burton">Cliff Burton<img src="img/burton.jpg" alt="Cliff Burton photo" width="100">
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="member" value="Ron McGovney">Ron McGovney<img src="img/mcgovney.jpg" alt="Ron McGovney photo" width="100">
+                </label>
+                <br>
+                <br>
+                <label>
+                    <b>How ofter do you listen to Metallica:</b>
+                    <br>
+                    <span>Not at all</span>
+                    <input type="range" min="0" max="10" step="1" name="how often" id="how oftten">
+                    <span>Every day</span>
+                </label>
+                <br>
+                <br>
+                <label>
+                    <b>Tell us more about your favourite album:</b>
+                    <textarea name="comments" rows="5" cols="50"></textarea>
+                </label>
+                <br>
+                <br>
+                <label for="second big4 band">
+                    <b>What is your second favourite Big4 band:</b>
+                </label>
+                <select name="second big4 band" id="second big4 band">
+                    <option value="anthrax">Anthrax</option>
+                    <option value="megadeth">Megadeth</option>
+                    <option value="slayer">Slayer</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit">
+            </form>
+        </main>
+    </body>
+    <br>
+    <br>
+    <footer>
+        <a href="https://www.facebook.com/nk95x/">
+            <b>
+                <i>©nk95x</i>
+            </b>
+        </a>
+        <img src="img/metal horn.jpg" alt="metal horn logo" width="100">
+    </footer>
 </html>
